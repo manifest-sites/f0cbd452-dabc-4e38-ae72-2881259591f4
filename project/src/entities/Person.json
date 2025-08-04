@@ -1,0 +1,34 @@
+{
+  "name": "Person",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the person"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the person"
+    },
+    "birthday": {
+      "type": "string",
+      "description": "Birthday in YYYY-MM-DD format"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address of the person"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number of the person"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the person"
+    }
+  },
+  "required": [
+    "name",
+    "birthday"
+  ]
+}
